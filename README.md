@@ -135,6 +135,7 @@ VLESS+Vision+Reality配置步骤
 💫 低延迟：TCP 传输确保稳定低延迟的连接体验
 1. 创建新节点配置
 ![image](https://github.com/aiwanba/x-ui/blob/main/20241216_vps_v2ray_03.jpg)
+
 VPS搭建V2Ray
 在图中标注的关键配置点：
 
@@ -144,6 +145,7 @@ VPS搭建V2Ray
 
 2. 用户配置详情
 ![image](https://github.com/aiwanba/x-ui/blob/main/20241216_vps_v2ray_04.png)
+
 VPS搭建V2Ray
 如图所示关键配置：
 
