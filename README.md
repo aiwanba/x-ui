@@ -126,7 +126,34 @@ bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/x-ui/master/insta
 
 </details>  
 
+VLESS+Vision+Reality配置步骤
+使用VLESS+Vision+Reality组合方案的优点：
 
+⚡ 超快速度：采用 Vision 流控机制，提供接近裸连的性能体验
+🔒 超强安全：Reality 提供更强大的安全性，无需配置传统证书
+🛡️ 更好防护：有效抵抗主动检测，提高连接稳定性
+💫 低延迟：TCP 传输确保稳定低延迟的连接体验
+1. 创建新节点配置
+![image](https://github.com/aiwanba/x-ui/blob/main/20241216_vps_v2ray_03.jpg)
+VPS搭建V2Ray
+在图中标注的关键配置点：
+
+开启 Reality 开关
+点击 “+添加用户” 按钮新增用户配置
+注意： 端口号(20062)仅作参考，请更换为其他不常用端口。
+
+2. 用户配置详情
+![image](https://github.com/aiwanba/x-ui/blob/main/20241216_vps_v2ray_04.png)
+VPS搭建V2Ray
+如图所示关键配置：
+
+ID：点击刷新按钮生成新的UUID
+flow：选择 xtls-rprx-vision（如果没有flow，请确保 Reality 开关开启）
+Reality：确保开启
+目标网站和可选域名：按图示填写
+3. 保存配置
+
+点击”添加”按钮保存所有设置。添加完成后，节点会显示在入站列表中。
 
 # 快捷方式
 安装成功后，通过键入`x-ui`进入控制选项菜单，目前菜单内容：
